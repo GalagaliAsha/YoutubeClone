@@ -1,0 +1,109 @@
+body {
+  background-color: black;
+  color: white;
+}
+.main {
+  display: flex;
+  align-items: center;
+  font-style: italic;
+}
+
+#line1 {
+  margin-bottom: 1%;
+  width: 25px;
+  height: 4px;
+  background-color: white;
+  margin: 6px 0;
+  border-radius: 1%;
+  margin-left: 50%;
+}
+
+#logor {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 30px;
+  margin-top: 0.5%;
+}
+#logow {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 20px solid white;
+  border-bottom: 10px solid transparent;
+}
+#letter {
+  margin-left: 1%;
+  margin-top: 2%;
+}
+.sreach {
+  margin-left: 12%;
+  width: 42%;
+  border: 3px solid white;
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 1%;
+}
+
+.mic {
+  margin-left: 0.5%;
+  margin-top: 1%;
+}
+.video {
+  margin-left: 12%;
+  margin-top: 1%;
+}
+.bell {
+  margin-left: 3%;
+  margin-top: 1%;
+}
+/* .mic {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 16px;
+    height: 12px;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    border: 2px solid;
+    border-top: 0;
+    margin-top: 20px;
+    margin-left: 2%;
+  }
+  .mic::after,
+  .mic::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+  }
+
+  .mic::after {
+    border: 2px solid;
+    width: 8px;
+    height: 18px;
+    left: 2px;
+    top: -10px;
+    border-radius: 4px;
+  }
+
+  .mic::before {
+    width: 10px;
+    height: 4px;
+    top: 12px;
+    left: 1px;
+    border-right: 4px solid transparent;
+    box-shadow: 0 2px 0, inset -2px 0 0;
+  }  */
+/* .video
+  {
+    margin-left: 15%;
+   
+  } */
