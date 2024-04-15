@@ -5,7 +5,7 @@
   row-gap: 43px;
   column-gap: 24px;
   margin-left: 300px;
-  margin-top: 150px;
+  margin-top: 50px;
   margin-right: 50px;
 }
 figure {
@@ -23,5 +23,21 @@ figure {
 }
 
 .t {
-  margin-top: 5px;
+  margin-top: 20px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+}
+
+.bottom > #logo-img {
+  height: 3rem;
+  border-radius: 1.5rem;
+  object-fit: cover;
+  margin: 0.2rem;
+}
+
+.con {
+  margin-left: 25%;
 }
