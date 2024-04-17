@@ -9,14 +9,14 @@
 .main {
   display: flex;
   align-items: center;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 #line1 {
   margin-bottom: 1%;
   width: 25px;
   height: 4px;
-  background-color: white;
+  background-color: black;
   margin: 6px 0;
   border-radius: 1%;
   margin-left: 50%;
@@ -48,22 +48,82 @@
 }
 .sreach {
   margin-left: 12%;
-  width: 42%;
-  border: 3px solid white;
-  padding: 5px;
+  width: 50%;
+  border: 3px solid black;
+  padding: 6.5px;
   border-radius: 20px;
   margin-top: 1%;
 }
+#sreach1 {
+  margin-left: 97%;
+}
 
 .mic {
-  margin-left: 0.5%;
+  margin-left: 0.6%;
   margin-top: 1%;
 }
 .video {
-  margin-left: 12%;
+  margin-left: 15%;
   margin-top: 1%;
 }
 .bell {
-  margin-left: 3%;
+  margin-left: 2%;
   margin-top: 1%;
+}
+.circle {
+  margin-top: 1%;
+  margin-left: 1.5%;
+  width: 45px;
+  height: 45px;
+  line-height: 50px;
+  border-radius: 50px;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  background: red;
+}
+.Right-box {
+  margin-top: 1%;
+  margin-left: 1%;
+  font-size: 200%;
+}
+
+.sub1 {
+  margin-top: 5%;
+}
+.home {
+  margin-top: 5%;
+}
+.History {
+  margin-top: 8%;
+}
+.Like {
+  margin-top: 8%;
+}
+.Playlist {
+  margin-top: 8%;
+}
+.Watchlater {
+  margin-top: 8%;
+}
+.Browser {
+  margin-top: 8%;
+}
+.Setting {
+  margin-top: 8%;
+}
+.Report {
+  margin-top: 8%;
+}
+.Reporthistory {
+  margin-top: 8%;
+}
+.Help {
+  margin-top: 8%;
+}
+.Sendfeedback {
+  margin-top: 8%;
+}
+.pod {
+  margin-top: 8%;
 }
