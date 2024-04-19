@@ -1,15 +1,10 @@
-/* body {
-  background-color: black;
-  color: white;
-} */
-.contain {
-  display: flex;
-  justify-content: space-between;
-}
 .main {
   display: flex;
   align-items: center;
-  /* font-style: italic; */
+}
+.contain {
+  display: flex;
+  justify-content: space-between;
 }
 
 #line1 {
@@ -80,7 +75,7 @@
   font-size: 25px;
   color: black;
   text-align: center;
-  background: red;
+  background: lightblue;
 }
 .Right-box {
   margin-top: 1%;
@@ -134,4 +129,23 @@
 }
 .pod {
   margin-top: 8%;
+}
+@media only screen and (max-width: 768px) {
+  .main {
+    display: block;
+  }
+  .contain {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .grid {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .inner,
+  .bottom {
+    padding: 0;
+    text-align: center;
+  }
 }
