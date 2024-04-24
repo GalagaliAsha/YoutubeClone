@@ -77,18 +77,18 @@
   text-align: center;
   background: lightblue;
 }
-.Right-box {
+.left-box {
   margin-top: 1%;
   margin-left: 1%;
   display: flex;
   flex-direction: column;
 }
-.Right-box > .icon-div {
+.left-box > .icon-div {
   display: flex;
   align-items: center;
 }
 
-.Right-box > .icon-div > #icon {
+.left-box > .icon-div > #icon {
   padding: 0.5rem;
 }
 .sub1 {
@@ -130,22 +130,4 @@
 .pod {
   margin-top: 8%;
 }
-@media only screen and (max-width: 768px) {
-  .main {
-    display: block;
-  }
-  .contain {
-    flex-direction: column;
-    justify-content: center;
-  }
-  .grid {
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .inner,
-  .bottom {
-    padding: 0;
-    text-align: center;
-  }
-}
+

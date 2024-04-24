@@ -1,0 +1,39 @@
+@media screen and (max-width: 320px) {
+  .grid {
+    /* background-color: red; */
+    /* display: grid; */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: 10px auto 10px; */
+    /* grid-template-rows: 10px auto 10px auto 10px auto 10px; */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 240px 240px;
+    row-gap: 43px;
+    column-gap: 24px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px; */
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(200px, 1fr)
+    ); /* Adjust the min and max width as needed */
+    grid-auto-rows: auto; /* Let rows adjust to content height */
+    row-gap: 20px; /* Adjust the gap between rows */
+    column-gap: 20px; /* Adjust the gap between columns */
+    margin: 50px; /* Shorthand for setting margin on all sides */
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(200px, 1fr)
+    ); /* Adjust the min and max width as needed */
+    grid-auto-rows: auto; /* Let rows adjust to content height */
+    row-gap: 20px; /* Adjust the gap between rows */
+    column-gap: 20px; /* Adjust the gap between columns */
+    margin: 50px; /* Shorthand for setting margin on all sides */
+  }
+}
